@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 var api = require('./node_modules/clicksend/api.js');
-
+const escapeHtml = require('escape-html');
 const CEBUANO = require('./messages/cebuano.json')
 
 // TO BE ADDED TO REPO VARIABLES
@@ -35,5 +35,9 @@ app.post('/responder', (req, res) => {
 });
   
 http.createServer(app).listen(1337, () => {
-console.log('Express server listening on port 1337');
+    console.log('Express server listening on port 1337');
 });
+
+exports.helloHttp = (req, res) => {
+    res.send(`Hello ${escapeHtml(req.query.name || req.body.name || 'World')}!`);
+};

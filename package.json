@@ -5,15 +5,28 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gcloud functions deploy helloHttp --runtime nodejs14 --trigger-http --allow-unauthenticated"
   },
   "dependencies": {
+    "@google-cloud/debug-agent": "^5.0.0",
+    "bluebird": "^3.7.2",
     "clicksend": "^5.0.37",
-    "express": "^4.17.1"
+    "escape-html": "^1.0.3",
+    "express": "^4.17.1",
+    "googleapis": "^21.3.0"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^1.1.1",
+    "@google-cloud/pubsub": "^2.0.0",
+    "@google-cloud/storage": "^5.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/namaeconde/sms-responder.git"
+  },
+  "engines": {
+    "node": ">=12.0.0"
   },
   "author": "Herstory Makers",
   "license": "ISC",
