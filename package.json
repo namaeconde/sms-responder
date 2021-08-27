@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gcloud functions deploy helloHttp --runtime nodejs14 --trigger-http --allow-unauthenticated"
+    "deployHelloHttp": "gcloud functions deploy helloHttp --runtime nodejs14 --trigger-http --allow-unauthenticated",
+    "deploySMSBot": "gcloud functions deploy smsbot --runtime nodejs14 --trigger-http --allow-unauthenticated"
   },
   "dependencies": {
     "@google-cloud/debug-agent": "^5.0.0",

@@ -13,7 +13,7 @@ const CLICKSEND_CONFIG = {
     sharedNumber: "+639221000119"
 }
 
-app.post('/responder', (req, res) => {
+app.post('/reply', function (req, res) {
     var smsMessage = new api.SmsMessage();
     smsMessage.from = CLICKSEND_CONFIG.sharedNumber;
     smsMessage.to = "+639992216589";
@@ -33,11 +33,5 @@ app.post('/responder', (req, res) => {
         res.send(err.body);
     });
 });
-  
-http.createServer(app).listen(1337, () => {
-    console.log('Express server listening on port 1337');
-});
 
-exports.helloHttp = (req, res) => {
-    res.send(`Hello ${escapeHtml(req.query.name || req.body.name || 'World')}!`);
-};
+exports.smsbot = app;
