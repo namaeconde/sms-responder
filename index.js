@@ -36,9 +36,9 @@ function getCebuanoReply(messageId, body, original_body) {
             const publicDoctorAssigned = CEBUPROVINCE_PUBLIC_DOCTORS[Math.floor(Math.random() * CEBUPROVINCE_PUBLIC_DOCTORS.length)];
             return `Ang imung request gisend na kay ${publicDoctorAssigned.name} nga naa sa ${publicDoctorAssigned.hospital}. Mahimo pud nimo siya tawagan sa ${publicDoctorAssigned.tel}. Salamat sa paghulat sa iyang reply. Maayong adlaw.`
         case "virtual":
-            return CEBUANO.SIGNUP_LINK_MSG + " https://platform.impact2050.com/register?consultation=virtual";
+            return CEBUANO.SIGNUP_LINK_MSG + " https://impacthackathon.uc.r.appspot.com/register?consultation=virtual";
         case "visit":
-            return CEBUANO.SIGNUP_LINK_MSG + " https://platform.impact2050.com/register?consultation=visit";
+            return CEBUANO.SIGNUP_LINK_MSG + " https://impacthackathon.uc.r.appspot.com/register?consultation=visit";
         case "text":
             // Private doctors information per region will be stored in a database
             // Fetch based on senders address and random from list
