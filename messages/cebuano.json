@@ -1,3 +1,9 @@
 {
-    "CONSULTATION_EMERGENCY_MSG": "Kung ganahan ka advice, palihug reply TAMBAG. Kung kini kay emergency, palihug reply TABANG"
+    "CONSULTATION_EMERGENCY_MSG": "Kung ganahan ka advice, reply TAMBAG. Kung kini kay emergency, reply TABANG.",
+    "PRIVATE_PUBLIC_MSG": "Kung ganahan ka pa-konsulta sa private nga doctor, reply PRIVATE. Kung nangita ka ug public doctor, reply PUBLIC.",
+    "ASK_ADDRESS_MSG": "Asa imung address karon?",
+    "ASK_EMERGENCY_LOCATON_MSG": "Asa imung emergency karon?",
+    "CONSULTATION_TYPE_MSG": "Kung ganahan ka makastorya ug doctor gamit video call, reply VIRTUAL. Kung ganahan ka mubisita sa clinic, reply CLINIC. Kung ganahan ka mangayo tambag gamit text, reply TEXT.",
+    "SIGNUP_LINK_MSG": "Palihug ko ug sign-up para ma-book imung konsulta sa private nga doctor. I-click ang kini nga link -",
+    "SEND_SOS_MSG": "Na-notify na ang duol nga Emergency Response Team sa imung lugar. Mahimo paghulat sa ilang pagresponde. Pwede ka mutawag sa 911 samtang naghulat. Amping."
 }
