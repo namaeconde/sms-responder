@@ -1,0 +1,24 @@
+{
+    "cebu_province": [
+        {
+            "name": "Dr. Gloria T. Duterte",
+            "tel": "(032) 254-0517",
+            "hospital": "Cebu City Medical Center"
+        },
+        {
+            "name": "Dr. Olivia A. Dandan",
+            "tel": "(032) 260-0543",
+            "hospital": "Cebu City Medical Center (Balamban)"
+        },
+        {
+            "name": "Dr. Zoriada G. Yurango",
+            "tel": "(032) 434-9128",
+            "hospital": "Cebu City Medical Center (Bogo City)"
+        },
+        {
+            "name": "Dr. Daisy Lou C. Abarquez",
+            "tel": "(032) 487-8334",
+            "hospital": "Cebu City Medical Center (Carcar City)"
+        }
+    ]
+}

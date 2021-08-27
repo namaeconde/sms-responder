@@ -1,0 +1,28 @@
+{
+    "cebu_province": [
+        {
+            "name": "Dr. Gary D. Galon",
+            "tel": "(032) 123-4567",
+            "business_hours": "Mon to Fri, 9AM to 4PM",
+            "hospital": "Chong Hua Hospital"
+        },
+        {
+            "name": "Dr. Janet W. Elcano",
+            "tel": "(032) 123-4567",
+            "business_hours": "Mon to Fri, 9AM to 4PM",
+            "hospital": "Cebu Doctors University Hospital"
+        },
+        {
+            "name": "Dr. Leticia Abinuman",
+            "tel": "(032) 123-4567",
+            "business_hours": "Mon to Fri, 9AM to 4PM",
+            "hospital": "University of Cebu Medical Center"
+        },
+        {
+            "name": "Dr. Dominic V. Viajar",
+            "tel": "(032) 123-4567",
+            "business_hours": "Mon to Fri, 9AM to 4PM",
+            "hospital": "Vicente Sotto Memorial Medical Center"
+        }
+    ]
+}
