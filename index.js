@@ -47,7 +47,7 @@ function getCebuanoReply(messageId, body, original_body) {
             return `Ang imung request gisend na kay ${privateDoctorAssigned.name} nga naa sa ${privateDoctorAssigned.hospital}. Mahimo pud nimo siya tawagan sa ${privateDoctorAssigned.tel} sa iyang business hours ${privateDoctorAssigned.business_hours}. Salamat sa paghulat sa iyang reply. Maayong adlaw.`
         default:
             if (original_body == CEBUANO.ASK_EMERGENCY_LOCATON_MSG) {
-                return 
+                return CEBUANO.SEND_SOS_MSG
             } else if (original_body == CEBUANO.ASK_ADDRESS_MSG) {
                 return CEBUANO.CONSULTATION_TYPE_MSG
             }
