@@ -13,12 +13,12 @@ const PRIVATE_DOCTORS = require('./doctors_data/region_7/private_doctors.json');
 
 // TO BE ADDED TO REPO VARIABLES
 const CLICKSEND_CONFIG = {
-    username: "namaeconde@gmail.com",
-    apikey: "810D2B8C-1060-BACC-A36A-057D72FC8885",
-    sharedNumber: "+639221000119"
+    username: "UPDATE TO CLICKSEND USERNAME",
+    apikey: "UPDATE TO CLICKSEND APIKEY",
+    sharedNumber: "UPDATE TO CLICKSEND SHAREDNUMBER"
 }
 
-// TO STORE MESSAGES RECEIVED TO DB BY MSGID
+// TO BE MODIFIED TO USE NATURAL LANGUAGE PROCESSING API
 // FETCH REPLIES BASED ON PREVIOUS RESPONSES
 function getCebuanoReply(messageId, body, original_body) {
     const keyword = body.toLowerCase();
